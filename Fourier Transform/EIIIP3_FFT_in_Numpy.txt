@@ -9,4 +9,6 @@ f3_SHIFTED = [0 0 0 0 1 0 0 0]
  
 Conclusion:
  
-fft: B = 1 and the exponential is negativeifft: A = 1/N and the exponential is positiver = N/2, rounded down to an integer
+fft: B = 1 and the exponential is negative
+ifft: A = 1/N and the exponential is positive
+r = N/2, rounded down to an integer

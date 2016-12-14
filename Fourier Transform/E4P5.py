@@ -16,6 +16,6 @@ plt.title('Loglog plot of y(x) = a*x**b')
 plt.loglog()
 plt.legend(['a = %s and b = %s' %(a[0],b[0]),'a = %s and b = %s' %(a[1],b[1]),'a = %s and b = %s' %(a[2],b[2])],loc = 4)
 plt.grid('on')
-plt.savefig('linear_loglog_plot.png')
+plt.savefig('EIVP5_linear_loglog_plot.png')
 plt.show()
 

@@ -30,7 +30,7 @@ def print_in_terminal():
 
 def write_in_file():
 
-	filename = 'FFT_in_Numpy.txt'
+	filename = 'EIIIP3_FFT_in_Numpy.txt'
 	f_ = open(filename,'w')
 	f_.write('Let f1 = [0,1,0,0] such that: \n \n')
 	f_.write('The fft of f1 is given by: %s \n' %f1_FFT)
@@ -40,9 +40,9 @@ def write_in_file():
 	f_.write('f2_SHIFTED = %s \n' %f2_SHIFTED)
 	f_.write('f3_SHIFTED = %s \n \n' %f3_SHIFTED)
 	f_.write('Conclusion:\n \n')
-	f_.write('fft: B = 1 and the exponential is negative')
-	f_.write('ifft: A = 1/N and the exponential is positive')
-	f_.write('r = N/2, rounded down to an integer')
+	f_.write('fft: B = 1 and the exponential is negative\n')
+	f_.write('ifft: A = 1/N and the exponential is positive\n')
+	f_.write('r = N/2, rounded down to an integer\n')
 
 	f_.close()
 	
