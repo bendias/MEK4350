@@ -19,7 +19,7 @@ def h(x):
 			h_[i] = np.cos(x[i])
 		return h_
 
-N = 1000
+N = 1024
 L = 2*np.pi
 dx = L/float(N)
 x = np.linspace(0,L-dx,N)					# linspace includes the last term, but we want the 
