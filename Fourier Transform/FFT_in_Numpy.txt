@@ -1,0 +1,12 @@
+Let f1 = [0,1,0,0] such that: 
+ 
+The fft of f1 is given by: [ 1.+0.j  0.-1.j -1.+0.j  0.+1.j] 
+The ifft of f1_FFT is given by: [ 0.  1.  0.  0.] 
+And shifting f2 = [1 0 0 0 0 0 0] and f3 = [1 0 0 0 0 0 0 0] 
+gives us: 
+f2_SHIFTED = [0 0 0 1 0 0 0] 
+f3_SHIFTED = [0 0 0 0 1 0 0 0] 
+ 
+Conclusion:
+ 
+fft: B = 1 and the exponential is negativeifft: A = 1/N and the exponential is positiver = N/2, rounded down to an integer
