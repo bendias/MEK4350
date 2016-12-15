@@ -56,6 +56,7 @@ def plot_the_ft_of_the_functions():
 	plt.xlabel('n')
 	plt.ylabel('Fourier_coefficients')
 	plt.title('plotting the FT of the three graphs')
+	plt.legend(['f_tilda','g_tilda','h_tilda'],loc = 2)
 	plt.savefig('EIVP6_abs_of_FC.png')
 	plt.figure()
 	plt.plot(n_,(f_tilda[:int(round(N/2.0))]),'b')
